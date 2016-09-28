@@ -4,22 +4,26 @@
 rm(list = ls())
 
 ## Creation
+
 v1 <- c(1, 2, 3)
 is.vector(v1)  # TRUE
 c(1, 2, "A")   # "1" "2" "A" (automatic coercion)
 
 ## Titles (first option)
+
 v2 <- c(1, 2, 3)
 v3 <- c("t1", "t2", "t3")
 names(v2) <- v3
 
 ## Titles (second option)
+
 v4 <- c(t4 = 1, t5 = 2, t6 = 3)
 
 names(v2)  # "t1" "t2" "t3"
 names(v4)  # "t4" "t5" "t6"
 
 ## Picking some elements from a vector
+
 v5 <- c(t1 = 10, t2 = 20, t3 = 30, t4 = 40, t5 = 50)
 v5[2]               # 20
 v5["t3"]            # 30
@@ -41,6 +45,7 @@ sum(c(T, F, T))  # 2 (number of TRUE values)
 
 sample(1:8, 4)      # 6 1 8 7 (randomly)
 seq(2, 10, by = 2)  # 2 4 6 8 10
+rep(4, 10)          # 4 4 4 4 4 4 4 4 4 4
 
 ## Vectors arithmetic
 
