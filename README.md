@@ -1,8 +1,8 @@
-# IntroductionToRForDataScience
+# Introduction to R for Data Science
 
-Personal notes for [MOOC: DAT204x Introduction to R for Data Science (edX)][01].
-Enrolled on September 23rd, 2016.
-Completed on [ongoing].
+* Personal notes for [MOOC: DAT204x Introduction to R for Data Science (edX)][01].
+* Enrolled on September 23rd, 2016.
+* Completed on [ongoing].
 
 ## Further readings
 
