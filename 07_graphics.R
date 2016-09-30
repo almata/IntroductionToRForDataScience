@@ -109,6 +109,6 @@ abline(coef(lm_height), lwd = 2)
 
 # similar to abline() => points() segments() lines() text()
 
-xco <- 69   # coordenates to center the text
-yco <- 162  # coordenates to center the text
+xco <- 69   # coordinates to center the text
+yco <- 162  # coordinates to center the text
 text(xco, yco, label = "someone fat", cex = 0.7)
